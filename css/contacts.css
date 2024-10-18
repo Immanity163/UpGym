@@ -1,0 +1,39 @@
+.location{
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.col3__list{
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.map-container{
+    position: relative;
+    height: 412px;
+    border-radius: 32px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.map-container iframe{
+    position: absolute;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+}
+
+.requisites{
+    gap: 10px;
+    flex-direction: column;
+}
+
+.req-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.55px;
+}
+
+.bottom{
+    margin-bottom: 15px;
+}

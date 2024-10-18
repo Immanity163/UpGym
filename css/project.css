@@ -1,0 +1,21 @@
+.location {
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.photos {
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.photos a img{
+    width: 282px;
+    height: 180px;
+}
+
+@media screen and (max-width: 1240px) {
+    .photos {
+        align-items: center;
+        justify-content: center;
+    }
+}

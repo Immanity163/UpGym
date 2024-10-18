@@ -1,0 +1,145 @@
+.location{
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.about__info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about-top{
+    display: flex;
+    gap: 24px;
+}
+
+.about-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.about-botoom-p{
+    font-size: 15px;
+}
+
+.about-top-p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.about__pluses {
+    justify-content: space-between;
+}
+
+.pluses__item {
+    flex-direction: column;
+}
+
+.pluses__orange-span {
+    color: var(--orange);
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 54px;
+    text-align: center;
+}
+
+.pluses__span {
+    text-align: center;
+}
+
+.product {
+    width: 585px;
+}
+
+@media screen and (max-width: 1240px) {
+    .about-top{
+        flex-direction: column;
+    }
+    
+    .about-bottom{
+        flex-direction: column-reverse;
+    }
+
+    .about__pluses {
+        flex-wrap: wrap;
+    }
+
+    .ap-1 {
+        width: 100%;
+    }
+}
+
+/* ADVANTAGES */
+
+.advantages__list {
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.advantages__item {
+    border-radius: 20px;
+    width: 588px;
+    height: 79px;
+    background-color: var(--biege);
+    box-shadow: var(--shadow);
+}
+
+.adv__orange {
+    border-radius: 20px;
+    width: 99px !important;
+    height: 79px;
+    background-color: rgba(240, 124, 0, 0.62);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.adv_img-1 {
+    background-image: url('../img/adv-img-1.png');
+}
+
+.adv_img-2 {
+    background-image: url('../img/adv-img-2.png');
+}
+
+.adv_img-3 {
+    background-image: url('../img/adv-img-3.png');
+}
+
+.adv_img-4 {
+    background-image: url('../img/adv-img-4.png');
+}
+
+.adv__item-span {
+    margin: auto 0;
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1240px) {
+    .advantages__list {
+        flex-wrap: wrap;
+    }
+
+    .advantages__item {
+        position: relative;
+        height: 60px;
+        width: 100%;
+    }
+
+    .adv__item-span {
+        padding-left: 90px;
+        margin-left: auto;
+    }
+
+    .adv__orange {
+        position: absolute;
+
+        height: 60px;
+        width: 80px !important;
+    }
+}
